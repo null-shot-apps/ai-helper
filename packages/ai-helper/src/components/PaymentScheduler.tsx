@@ -221,10 +221,11 @@ export default function PaymentScheduler() {
       {payments.length === 0 && (
         <div className="text-center py-12">
           <p className="text-slate-400 text-lg">No scheduled payments yet</p>
-          <p className="text-slate-500 text-sm mt-2">Click "New Payment" to get started</p>
+          <p className="text-slate-500 text-sm mt-2">Click &quot;New Payment&quot; to get started</p>
         </div>
       )}
     </div>
   );
 }
+
 

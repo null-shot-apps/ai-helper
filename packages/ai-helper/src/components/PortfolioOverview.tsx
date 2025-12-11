@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface Asset {
   symbol: string;
@@ -12,7 +12,7 @@ interface Asset {
 }
 
 export default function PortfolioOverview() {
-  const [assets, setAssets] = useState<Asset[]>([
+  const [assets] = useState<Asset[]>([
     {
       symbol: 'ETH',
       name: 'Ethereum',
@@ -86,4 +86,6 @@ export default function PortfolioOverview() {
     </div>
   );
 }
+
+
 
